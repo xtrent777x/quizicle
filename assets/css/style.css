@@ -1,0 +1,118 @@
+body{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    margin : 20px auto;
+    background-color: #b4f8c3;
+    height: 300px;
+    width : 800px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px;
+    position: relative;
+}
+#start{
+    font-size: 1.1em;
+    font-weight: bolder;
+    width:300px;
+    height:150px;
+    border : 2px solid #020405;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    left:300px;
+    top:50px;
+    color : #020405;
+}
+#start:hover{
+    border: 3px solid #f61f03;
+    color : #f61f03;
+}
+
+
+
+#question{
+    width: 500px;
+    height : 100px;
+    position: center;
+    right:0;
+    top:0;
+}
+#question p{
+    margin : 0;
+    padding : 10px;
+    font-size: 1.25em;
+}
+
+#choices{
+    width : 600px;
+    position: inline-block;
+    right : 0;
+    top : 125px;
+    padding : 10px
+}
+.choice{
+    display: inline-block;
+    width : 250px;
+    text-align: center;
+    border : 1px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+    padding : 5px;
+}
+.choice:hover{
+    border : 2px solid grey;
+    font-weight: bold;
+}
+
+#timer{
+    position: absolute;
+    height : 75px;
+    width : 200px;
+    bottom : 0px;
+    text-align: center;
+}
+#counter{
+    font-size: 1em;
+}
+
+#progress{
+    width : 500px;
+    position: absolute;
+    bottom : 0px;
+    right : 0px;
+    padding:5px;
+    text-align: right;
+}
+.prog{
+    width : 25px;
+    height : 25px;
+    border: 1px solid #000;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left : 5px;
+    margin-right : 5px;
+}
+#scoreContainer{
+    margin : 20px auto;
+    background-color: #4490f9;
+    height: 300px;
+    width : 700px;
+    position: relative;
+    text-align: center;
+    font-weight: bolder;
+    
+}
+
+#scoreContainer p{
+    position: absolute;
+    display: block;
+    width : 59px;
+    height :59px;
+    top:130px;
+    left:325px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
