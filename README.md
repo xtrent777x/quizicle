@@ -12,3 +12,8 @@ this is a good practice an in the interview process similar functions will be pr
 Questions will be based of JavaScript fundamentals.
 
 the game end when timer hits 0 or when all questions have been answered.
+
+
+Test your JavaScript knowledge
+
+https://xtrent777x.github.io/quizicle/
